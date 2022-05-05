@@ -1,0 +1,82 @@
+div.header{
+    max-width: 140%;
+    height: 100px;
+    background-color: rgba(174, 21, 131, 1);
+    margin-top: -20px;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+div.mainname{
+    max-width: 30%;
+    height: 60px;
+    background-color: rgba(6, 146, 155, 1);
+    margin: auto;
+}
+@font-face {
+    margin-left: 20%;
+    font-family: "OrelegalOne";
+    font-style: normal;
+    font-weight: 400;
+    src: local("OrelegaOne"),
+         url("OrelegaOne-Regular.ttf") format("tff"),}
+         @font-face {
+            margin-left: 20%;
+            font-family: "Iceberg";
+            font-style: normal;
+            font-weight: 400;
+            src: local("Iceberg"),
+                 url("Iceberg-Regular.ttf") format("tff"),}
+div.maintext{
+    font-size: calc(1px + 2vw);
+    margin: auto;
+    margin-top: -5px;
+    
+}
+body{
+    height: 800px;
+}
+div.maininfo{
+    width: 70%;
+    height: 800px;
+
+    background-color: rgba(196, 196, 196, 1);
+    margin: auto;
+}
+ul#menu-right li{
+    display:inline-block; 
+    margin-top: -10px;
+    padding-right: 2%;}
+button.home {
+    
+    background: fixed rgba(6, 146, 155, 1);
+      line-height: 20px;
+      margin: auto;
+      margin-top: 10px;
+      border: 0;
+      height: calc(12px + 2vw);;
+      width: calc(15px + 5vw);;
+    }
+    button.home:hover {
+        background: fixed rgb(5, 126, 134);
+          line-height: 20px;         
+          box-shadow:
+     3px 3px 3px 3px rgb(104, 12, 78);
+    transition: all 0.3s ease;
+        }
+.home span {
+    font-family: "Iceberg", "Arial", sans-serif;
+    font-size: calc(1.5px + 1vw);
+    display: inline-block;
+          }
+.maininfo span{
+    font-family: "OrelegalOne", "Arial", sans-serif;
+    font-size: calc(1.5px + 1vw);
+}
+.img{
+    width: 50%;
+    height: auto;
+}
+div.info2{
+    font-size: calc(1.5px + 1vw);
+    font-family: "OrelegalOne", "Arial", sans-serif;
+}
